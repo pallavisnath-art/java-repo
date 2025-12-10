@@ -1,5 +1,8 @@
 package ExcelRead;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+
 public class Excel1 {
 
 	public static void main(String[] args) {
@@ -27,7 +30,7 @@ public class Excel1 {
 			int y=(int) c.getNumericCellValue();// string - integer  = typecasting
 			return String.valueOf(y);
 			
-		}
+		
 	}
 
 }

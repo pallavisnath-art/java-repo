@@ -23,7 +23,7 @@ public class excel2 {
 		        XSSFRow r = s.getRow(row);
 		        XSSFCell c = r.getCell(col);
 
-		        return c.getStringCellValue();
+/		        return c.getStringCellValue();
 		    }
 
 		    public static String getIntegerData(int row, int col) throws IOException {
